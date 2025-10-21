@@ -1,0 +1,15 @@
+
+        h1 {
+            color: darkgrey;
+            font-size: 50px;
+            font-family: "BBH Sans Bartle", sans-serif;
+            background-color: aqua;
+            text-align: center;
+            }
+        body {
+            background-color: rgb(0, 0, 0);
+            height: 100vh;
+            background-image: url(kuliah/latihan2/fotogue.jpeg);
+            background-repeat: no-repeat;
+            background-position-x: center;
+        }
