@@ -1,0 +1,12 @@
+body 
+    { background-color: aqua; 
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+      text-align: justify; }
+h1  { font-family: Comic Sans MS; 
+      font-size: 60px ;
+      color: darkblue;
+      text-align: center; }
+.cw { color: azure;}
+.cp { color: orange;}
+h4  {text-align: right;
+     font-style: italic;}
