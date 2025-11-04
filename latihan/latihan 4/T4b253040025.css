@@ -1,0 +1,163 @@
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* style */
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: blue;
+    background-image: url(img/softbg.jpg);
+    color: white;
+    text-align: justify;
+}
+
+.container{ 
+    width: 800px;
+    margin: auto;
+    background-color: #090101;
+}
+
+
+h1 {
+    display: inline-block;
+    margin-left: 15px;
+    font-family: "Momo Trust Display", sans-serif;
+    font-style: italic;
+}
+
+
+h1 a {
+    color: gold;
+    text-decoration: none;
+}
+
+.headerP {
+    padding: 15px;
+    background-color: blue;
+}
+
+.headerL {
+    padding-left: 450px;
+    margin-bottom: -15px;
+    margin-top: -35px;
+}
+
+.headerP .judul {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.headerL ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.headerL a {
+    text-decoration: none;
+    color: gold;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    /* jgn lupa ini agar ada bayangan efek ter angkat */
+    box-shadow: 0 1px  black,  /* Bayangan utama */
+        0 1px  black; /* Bayangan kedua */
+    transition: all 0.3s ease; /* Transisi halus buat efek hover */;
+}
+
+.headerL a:hover {
+    color: blue;
+    background-color: deepskyblue;
+    transition: 1s;
+   box-shadow: 
+        0 4px 8px gold,
+        0 2px 4px gold;
+    transform: translateY(-2px); /* Mengangkat sedikit tombol saat di-hover */
+}
+
+.hero {
+    height: 250px;
+    background-image: url(img/juara.jpg);
+    background-size: cover;
+    background-position: 0-90px;
+    border-top: 5px solid gold;
+    border-bottom: 5px solid gold;
+    margin-top: 5px;
+}
+
+.conten .hero2 {
+    height: 250px;
+    width: 100%;
+    background-image: url(img/ty.jpg);
+    background-size: cover;
+    background-position: 0-50px;
+    border-top: 5px solid gold;
+    border-bottom: 5px solid gold;
+}
+
+.conten {
+    padding: 20px;
+}
+
+.conten h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.conten .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.conten .penulis a {
+    color: blue;
+    text-decoration: none;
+}
+
+.conten .PT {
+    color: white;
+    text-decoration: none;
+}
+
+.conten .km {
+    color: white;
+    text-decoration: none;
+}
+
+.conten .PT:hover {
+    color: gold;
+}
+
+.conten p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: gold;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: blue;
+    text-align: center;
+    font-size: 12px;
+}
