@@ -1,0 +1,117 @@
+.clear {
+    clear: both;
+}
+
+/* style utama */
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;
+    margin-top: 5px;
+    width: 1400px;
+    background-color: grey;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: fixed;
+}
+
+.header .judul {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.header h1 {
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.nav li {
+    display: inline-block;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.nav ul {
+    margin-left: 550px;
+    float: left;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 15px;
+    float: left;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.container {
+    background-color: aqua;
+    width: 1400px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.bio {
+    width: 600px;
+    float: left;
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+.bio h1 {
+    font-size: 70px;
+}
+
+.bio h2 {
+    font-size: 30px;
+}
+
+.bio p {
+    font-size: 20px;
+}
+
+.container .fotoku {
+    float: right;
+    width: 600px;
+    border-radius: 50%;
+    margin: 40px;
+}
+
+.container .Promo {
+    float: right;
+    padding-right: 40px;
+    margin-top: 70px;
+}
+
+.Promo {
+    background-color: white;
+    border-radius: 10%;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.Promo h1 {
+    font-size: 60px;
+}
+
+.Promo h2 {
+    font-size: 40px;
+}
+
+.Promo ul li {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.container .umroh {
+    width: 600px;
+    display: inline;
+    margin-top: 75px;
+}
+
+
