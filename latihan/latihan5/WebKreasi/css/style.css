@@ -113,6 +113,7 @@ body {
     border-radius: 10%;
     margin-right: 30px;
     padding: 10px;
+    box-shadow: black 2px 2px 2px ;
 }
 
 .Promo h1 {
@@ -131,6 +132,7 @@ body {
     width: 600px;
     display: inline;
     margin-top: 75px;
+    margin-left: 20px;
 }
 
 /* HAL 3 */
@@ -151,6 +153,7 @@ body {
 .tour li,
 .tour li span {
     border-radius: 50%;
+    margin-bottom: 30px;
 }
 
 .tour li {
