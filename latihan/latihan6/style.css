@@ -1,0 +1,153 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}  
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+
+}
+
+/* LATIHAN 1 */
+
+.container-satu {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.kolom-utama {
+    flex: 3;
+    order: 2;
+}
+
+
+.sidebar-satu {
+    flex: 1;
+    order: 1;
+}
+
+.sidebar-dua {
+    flex: 1;
+    order: 3;
+}
+
+/* Akhir latihan 1 */
+
+/* Latihan 2 - service / features*/
+
+.container-dua {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.layanan-satu, .layanan-dua, .layanan-tiga {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.layanan-satu {
+    background-color: blue;
+}
+
+.layanan-dua {
+    background-color: green;
+}
+
+.layanan-tiga {
+    background-color: salmon;
+}
+
+/* LATIHAN 3 */
+
+.container-tiga {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbail img {
+    width: 100%;
+}
+
+.thumbail {
+    width: 50%;
+}
+
+/* LATIHAN 4 */
+ .container-empat {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+ }
+
+ .card {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    background-color: #eee;
+    overflow: hidden;
+    margin: 10px;
+    flex: 1;
+ }
+
+ .card.besar {
+    transform: scale(1.12);
+ }
+
+.card .header {
+    height: 150px;
+    background-color: #666;
+}
+
+.card .contemt {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* LATIHAN 5 */
+
+.container-lima {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 5px solid black;
+    display: flex;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+}
+
+.kotak span {
+    margin: auto;
+}
+
+/* RESPONSIVE */
+@media( min-width: 600px ) {
+  .container-dua {  
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .layanan {
+    width: 30px;
+  }
+  .thumbail {
+    width: 25%;
+  }
+}
