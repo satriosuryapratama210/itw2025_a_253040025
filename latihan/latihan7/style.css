@@ -1,0 +1,47 @@
+body{
+    min-height: auto;
+}
+
+section{
+    padding-top: 5rem;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #ffffff;
+    text-align: center;
+    background-color: #0693E3;
+}
+
+.jumbotron .display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.jumbotron p {
+    font-size: 1.2rem;
+}
+.jumbotron .btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+/* Navigations */
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: rgb(23, 67, 41);
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+#svg {
+    top: 0;
+    margin-top: -20px;
+}
+
+#contact {
+    background-color: #0693E3;
+    padding-bottom: 250px;
+}
